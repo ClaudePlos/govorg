@@ -22,13 +22,13 @@ export class HomeComponent implements OnInit {
     console.log('sdfsdf');
     console.log(m);    
 
-    if (m == 'Hello'){
+    if (m.toLowerCase() == 'hello'){
       this.answer = "Hello. Pleas ask me";
     }
-    else if (m == 'x'){
+    else if (m.toLowerCase() == 'x'){
       this.answer = "x?";
     } 
-    else if (m == 'I\'d like to find information about paying rates, please!'){
+    else if (m == 'i\'d like to find information about paying rates, please!'){
       this.answer = "Sure, here is the link you're after: http://govt.org.au/rates";
     } 
     else{
