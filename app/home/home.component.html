@@ -1,0 +1,21 @@
+<h1>
+  {{ title }}
+</h1>
+<p>
+  {{ body }}
+</p>
+
+<hr>
+<div>
+  <h2 class="text-error">ChatBot: </h2>
+  <form class="form-inline">
+    <input type="text"  [(ngModel)]="question"  placeholder="Welcome to the Government Service! How can I help you today?" 
+    style="width: 450px;">
+    <button type="submit" class="btn" (click)="updateMessage(question)">Ask</button>
+    
+
+    <br> {{ answer }}
+  </form>
+
+
+</div>
