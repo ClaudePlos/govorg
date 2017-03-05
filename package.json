@@ -4,7 +4,7 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/onehungrymind/fem-ng2-simple-app/"
+    "url": "https://github.com/ClaudePlos/govorg"
   },
   "scripts": {
     "start": "webpack-dev-server --inline --colors --watch --display-error-details --display-cached  --port 3001 --hot",

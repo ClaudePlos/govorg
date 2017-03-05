@@ -9,7 +9,7 @@
 
 ```bash
 git clone https://github.com/ClaudePlos/govorg.git
-cd website-govorg
+cd govorg-master
 npm i
 typings install
 npm start
